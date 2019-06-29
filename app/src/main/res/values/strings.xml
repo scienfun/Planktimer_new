@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Planktimer</string>
+    <string name="title_stopwatch">Stopwatch</string>
+    <string name="title_timer">Timer</string>
+    <string name="title_setting">Setting</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Frag1</string>
+</resources>

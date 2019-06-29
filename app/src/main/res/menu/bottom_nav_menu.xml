@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_stopwatch"
+        android:icon="@drawable/ic_stopwatch_black_24dp"
+        android:title="@string/title_stopwatch"/>
+
+    <item
+        android:id="@+id/navigation_timer"
+        android:icon="@drawable/ic_timer_black_24dp"
+        android:title="@string/title_timer"/>
+
+    <item
+        android:id="@+id/navigation_setting"
+        android:icon="@drawable/ic_setting_black_24dp"
+        android:title="@string/title_setting"/>
+
+</menu>
