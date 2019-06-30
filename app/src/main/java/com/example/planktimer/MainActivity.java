@@ -36,15 +36,21 @@ public class MainActivity extends AppCompatActivity
             switch (item.getItemId()) {
                 case R.id.navigation_stopwatch:
                     fragmentTran = getSupportFragmentManager().beginTransaction();
-                    fragmentTran.replace(R.id.contentFrame, stopwatchFragment).commit();
+                    fragmentTran.replace(R.id.contentFrame, stopwatchFragment);
+                    fragmentTran.addToBackStack(null);
+                    fragmentTran.commit();
                     return true;
                 case R.id.navigation_timer:
                     fragmentTran = getSupportFragmentManager().beginTransaction();
-                    fragmentTran.replace(R.id.contentFrame, timerFragment).commit();
+                    fragmentTran.replace(R.id.contentFrame, timerFragment);
+                    fragmentTran.addToBackStack(null);
+                    fragmentTran.commit();
                     return true;
                 case R.id.navigation_setting:
                     fragmentTran = getSupportFragmentManager().beginTransaction();
-                    fragmentTran.replace(R.id.contentFrame, settingFragment).commit();
+                    fragmentTran.replace(R.id.contentFrame, settingFragment);
+                    fragmentTran.addToBackStack(null);
+                    fragmentTran.commit();
                     return true;
             }
 
@@ -67,7 +73,9 @@ public class MainActivity extends AppCompatActivity
         settingFragment = new SettingFragment();
 
         fragmentTran = getSupportFragmentManager().beginTransaction();
-        fragmentTran.replace(R.id.contentFrame, stopwatchFragment).commit();
+        fragmentTran.replace(R.id.contentFrame, stopwatchFragment);
+//        fragmentTran.addToBackStack(null);
+        fragmentTran.commit();
         };
 
     @Override

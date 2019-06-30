@@ -6,4 +6,6 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Frag1</string>
+    <string name="_00_60_00">00:60:00</string>
+    <string name="_00_00_00">00:00:00</string>
 </resources>
